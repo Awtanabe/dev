@@ -1,6 +1,0 @@
-== README
-
-
-# git hub
-https://github.com/WilHall/gretel
-

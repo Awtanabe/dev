@@ -1,0 +1,46 @@
+<div class="row">
+  <div class="col m6 offset-m3 center">
+     <h2>Edit <%= resource_name.to_s.humanize %></h2>
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+  <%= render "devise/shared/error_messages", resource: resource %>
+
+  <div class="input-field">
+    <%= f.text_field :name, :id => "name", :placeholer => "Name", autofocus: true, autocomplete: true %>
+  </div>
+
+  <div class="input-field">
+    <%= f.email_field :email, :id => "email", :placeholer => "Email", :class => "validate"%>
+  </div>
+
+  <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+    <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
+  <% end %>
+
+  <div class="input-field">
+    <%= f.password_field :password, :id => "password", :placeholder =>"new", :class => "validate" ,autocomplete: "off" %>
+  </div>
+
+  <div class="input-field">
+    <%= f.password_field :password_confirmation, autocomplete: "new-password",:placeholder =>"next password", :class => "validate" ,autocomplete: "off" %>
+  </div>
+
+  <div class="input-field">
+    <%= f.password_field :current_password, :id => "current_password",:placeholder =>"next password", :class => "validate", autocomplete: "current-password" %>
+  </div>
+
+  <button class="btn waves-effect waves-light" type="submit">
+  
+  </button>
+  
+
+<button class="btn waves-effect waves-light" type="submit" name="action">
+ Update
+</button>
+<%= link_to "Back", :back, :class => "btn waves-effect waves-light"%>
+
+
+<% end %>  
+  </div>
+</div>
+

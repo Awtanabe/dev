@@ -1,0 +1,470 @@
+/* reset css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color:#e9ebee;
+  }
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+a {
+  color: black;
+  text-decoration: none
+}
+a:hover{
+  
+}
+li{
+  list-style: none;
+}
+
+  
+/* header */
+
+.header{
+  margin:20px;
+  height:50px;
+  margin: 0;
+  width:100vw;
+  background-color:#4267b2;
+}
+.clear{
+  clear:both;
+}
+
+.nav-items{
+  position: relative;
+}
+
+.nav-items-wrapper{
+  position: absolute;
+  padding-bottom: 25px;
+  top: -10px;
+}
+
+/* search-header */
+
+.search-header{
+  /* width: calc(100vw - 30%); */
+  height:30px;
+  margin-top:10px;
+  width: 48%;
+  float:left;
+}
+
+.logo{
+  float:left;
+  margin-left:20px;
+}
+.logo-img{
+  width:27px;
+  float: left;
+  /* height:30px; */
+}
+
+.search-field{
+  width:72%;
+  margin-left:10px;
+  float:left;
+}
+
+.search-box{
+  display:inline-block;
+}
+
+.search-form{
+  margin-top: 5px;
+  position:relative;
+}
+.search-input{
+  width:100%;
+  height: 22px;
+  float:left;
+  border: none;
+  border-radius:3px;
+  background-color: #fff;
+}
+.search-button{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: none;
+  width: 25px;
+  font-size: 14px;
+  height: 24px;
+  padding: 0 17px;
+  background-color: #ccd0d5;
+}
+
+.nav-items{
+  float:right;
+  margin-top:10px;
+  height:30px;
+  width: 51%;
+}
+
+.image-text{
+  margin-left:5px;
+}
+
+.nav-list{
+  float:right;
+  margin-right:20px;
+  list-style: none;
+  color:white;
+}
+
+/* side-bar */
+
+
+.side-bar{
+  margin-right: 10px;
+}
+
+.side-bar-news-feeds{
+  margin: 0px;
+  padding-left: 10px;
+}
+.short-cut-list{
+  padding-left: 10px;
+}
+.discover-list{
+  padding-left: 10px;
+}
+
+.side-list{
+  list-style: none;
+}
+.fa-bell, .nev-comments{
+  color:white;  
+}
+.side-message{
+
+}
+.user-name, .home, .create{
+  color:white;
+  font-weight:bold;
+}
+a{
+  text-decoration:none;
+}
+
+.nav-ltem-list li{
+  text-decoration:none;
+}
+
+
+.newspaper-icon{
+  display:inline-block;
+}
+.news-feed-text{
+  display:inline-block;
+}
+
+/* container-body */
+
+.container-body{
+  
+}
+
+.side-bar{
+  float:left;
+}
+
+.main{
+  float:left;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.post{
+  background-color:  #fff;
+}
+.post-field-header{
+  background-color: #f5f6f7;
+}
+.post-field-user{
+  float:left;
+  padding:20px;
+}
+.post-field-list{
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 15px;
+  float: left;
+  list-style: none;
+  background-color: rgba(233, 235, 238, 0.6);
+  font-weight: bold;
+}
+
+.post-field-list-comment{
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 15px;
+  margin-right: 44px;
+  float: left;
+  list-style: none;
+  background-color: rgba(233, 235, 238, 0.6);
+  font-weight: bold;
+}
+
+.post-field-list:hover{
+  background-color: rgba(233, 235, 238, 1.0);
+}
+
+.post-field-additional-list{
+  background-color: rgba(233, 235, 238, 1.0);
+  height:20px;
+
+  width:100%;
+}
+
+/* 投稿フォーム */
+
+.main{
+  width:500px;
+  box-sizing: content-box;
+}
+
+
+.post-field-header{
+  font-size: 11px;
+  font-weight: bold;
+  padding: 6px;
+}
+
+form{
+  padding: 20px;
+}
+
+.post-form{
+  background-color: #fff;
+  height: 61px;
+  margin: 0;
+  padding: 0;
+
+}
+
+.post-input{
+  width: 30%;
+  font-size: 13px;
+  width: 88%;
+  border-radius: 39px;
+  height: 34px;
+  position: relative;
+  border: 1px solid rgb(218, 221, 224);
+  background-color: rgba(233, 235, 238, 0.6);
+}
+
+.user-image{
+  float:left;
+}
+.post-user-name{
+  font-size: 14px;
+  color: #365899;
+}
+.user-date{
+  margin-left: 26px;
+  font-size:10px;
+  color: #808080;
+}
+
+.logo-img{
+  border-radius:50px;
+}
+
+.post-feed{
+  border-bottom: 1px solid #dddfe2;
+}
+
+.post-field{
+  width: 511px;
+}
+
+.post-field-header{
+  margin: 1px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+}
+
+.post-field-icons{
+  padding: 0 10px;
+  padding-top: 9px;
+  background-color: #fff;
+}
+
+.post-field-lists-icons{
+  height: 30px;
+  padding: 0px;
+  margin: 0;
+  background-color: #fff;
+}
+
+.post-field-lists{ 
+  height: 30px;
+  padding-left: 63px;
+  margin: 0;
+  background-color: #fff;
+  /* border-top: 1px solid #dddfe2; */
+}
+
+.post{
+  width: 511px;
+  margin-top: 10px;
+}
+
+.post-header{
+  margin-top: 5px;
+  padding: 10px;
+}
+
+p .normal{
+  width:300px;
+}
+.w-nomal{
+  padding: 5px;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.post-images{
+  width: 503px;
+}
+
+/* 画像の高さは307かな */
+.post-left{
+  float: left;
+  margin-right:3px;
+}
+
+.shrae-icons{
+  float: right;
+}
+
+.fa-thumbs-up{
+  font-size: 1px;
+  padding: 4px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: blue;
+}
+
+
+.fa-heart{
+  font-size: 1px;
+  padding: 4px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: red;
+}
+
+.post-comment-form-wrapper{
+  position: relative;
+}
+
+.post-comment-form{
+  padding-bottom: 0px;
+}
+.post-good-icons{
+  padding: 10px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #dddfe2;
+}
+
+.good-icons-text{
+  font-size: 12px;
+  margin-left: 6px;
+  color: rgb(33, 34, 35);
+}
+.share-text{
+  color: rgb(33, 34, 35);
+  font-size: 12px;
+}
+
+.post-icons{
+  padding: 11px 0px;
+  border-bottom: 1px solid #dddfe2;
+}
+
+
+.fa-smile{
+  position: absolute;
+  top: 31px;
+  right: 114px;
+}
+
+.fa-address-card{
+  position: absolute;
+  top: 31px;
+  right: 89px;
+}
+
+.fa-camera{
+  position: absolute;
+  top: 31px;
+  right: 68px;
+}
+
+.fa-adobe{
+  position: absolute;
+  top: 31px;
+  right: 48px;
+}
+
+.none{
+  display: none;
+}
+
+
+/* ######## */
+
+.box{
+  margin: 0 auto;
+  padding: 20px 0px;
+  width: 600px;
+  background-color: #fff;
+}
+.box-header{
+  width:80%;
+  margin: 0 auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.content-box{
+  width:80%;
+  margin: 0 auto;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.left-button{
+  background-color:blue;
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.right-button{
+  background-color:yellow;
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+
+.nnn{
+  border-top:solid 2px; 
+  border-bottom:solid 2px; 
+  /* padding-top:10px;  */
+  padding-bottom:10px; 
+  margin-bottom:20px;
+}
